@@ -46,7 +46,7 @@ export class NavMenu extends Component {
             navbar
           >
             <ul className="navbar-nav flex-grow">
-              <NavItem>
+              {/* <NavItem>
                 <NavLink tag={Link} className="text-dark" to="/">
                   Home
                 </NavLink>
@@ -60,7 +60,7 @@ export class NavMenu extends Component {
                 <NavLink tag={Link} className="text-dark" to="/fetch-data">
                   Fetch data
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink tag={Link} className="text-dark" to="/rank-movies">
                   Rank Movies
