@@ -1,4 +1,5 @@
 {
+  "homepage": "http://RajatRjSharma.github.io/Movies-and-Album-Ranking-App",
   "name": "rankapp",
   "version": "0.1.0",
   "private": true,
@@ -51,6 +52,8 @@
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
     "start": "rimraf ./build && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d build",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
